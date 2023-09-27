@@ -18,6 +18,7 @@ import { Exos1_1Component } from './Exos/exos1_1/exos1_1.component';
 import { Exos1_2Component } from './Exos/exos1_2/exos1_2.component';
 import { Exos3Component } from './Exos/exos3/exos3.component';
 import { Exos2Component } from './Exos/exos2/exos2.component';
+import { DirectivesNgComponent } from './Demo/directives-ng/directives-ng.component';
 
 
 
@@ -35,7 +36,8 @@ import { Exos2Component } from './Exos/exos2/exos2.component';
     InputoutputComponent,
     ChildrenComponent,
     Exos3Component,
-    Exos2Component
+    Exos2Component,
+    DirectivesNgComponent
 
 
   ],

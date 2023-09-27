@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-shoppinglistv1',
-  templateUrl: './shoppinglistv1.component.html',
-  styleUrls: ['./shoppinglistv1.component.scss']
+  selector: 'app-exos3',
+  templateUrl: './exos3.component.html',
+  styleUrls: ['./exos3.component.scss']
 })
-export class Shoppinglistv1Component {
+export class Exos3Component {
 
   shoppingList : string[] = []
 

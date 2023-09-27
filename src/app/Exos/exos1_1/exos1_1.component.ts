@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-exos1',
-  templateUrl: './exos1.component.html',
- 
+  selector: 'app-exos1_1',
+  templateUrl: './exos1_1.component.html',
+  styleUrls: ['./exos1_1.component.scss']
 })
-export class Exos1Component {
+export class Exos1_1Component {
   chrono: number = 0
   chrono2: { minutes: number, seconds: number } = { minutes: 0, seconds: 0 }
   chrono3: { minutes: number, seconds: number, milli: number } = { minutes: 0, seconds: 0, milli: 0 }

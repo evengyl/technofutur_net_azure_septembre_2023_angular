@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-chronopipe',
-  templateUrl: './chronopipe.component.html',
-  styleUrls: ['./chronopipe.component.scss']
+  selector: 'app-exos2',
+  templateUrl: './exos2.component.html',
+  styleUrls: ['./exos2.component.scss']
 })
-export class ChronopipeComponent {
+export class Exos2Component {
 
   time : number = 57
   timer : any

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-exos2',
-  templateUrl: './exos2.component.html',
+  selector: 'app-exos1_2',
+  templateUrl: './exos1_2.component.html',
+  styleUrls: ['./exos1_2.component.scss']
 })
-export class Exos2Component {
+export class Exos1_2Component {
   resultatDesassemble: string = '';
 
   panierCourses: string[] = [];

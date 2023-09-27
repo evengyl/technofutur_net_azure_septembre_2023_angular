@@ -1,31 +1,49 @@
-<div>
-    <span><a routerLink="">Home</a></span>
-    
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="Bindings">1 : Bindings</a></span>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="pipes">2 : Pipes</a></span>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="inputoutput">3 : @Input/@Output</a></span>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="pipes">2 : Pipes</a></span>
+<nav>
+  <div class="nav-wrapper">
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="Exos1">Exos1</a></span>
+    <a routerLink="" class="brand-logo">Accueil</a>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="Exos2">Exos2</a></span>
+    <ul class="right hide-on-med-and-down">
+      <li>
+        <a class="dropdown-trigger" href="#!" data-target="dropdown1">
+          Démonstration de code angular
+          <i class="material-icons right">arrow_drop_down</i>
+        </a>
+      </li>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="Tuto">Tuto</a></span>
+      <li>
+        <a class="dropdown-trigger" href="#!" data-target="dropdown2">
+          Exercises Angular pratico pratique
+          <i class="material-icons right">arrow_drop_down</i>
+        </a>
+      </li>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="shoppingv1">Shopping V1</a></span>
 
-    &nbsp;&nbsp;|&nbsp;&nbsp;
-    <span><a routerLink="chronopipe">Chrono++</a></span>
+    </ul>
 
   </div>
+</nav>
+        
+<!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+
+  <li><a routerLink="bindings">1 : Bindings</a></li>
+  <li><a routerLink="pipes">2 : Pipes</a></li>
+  <li><a routerLink="inputoutput">3 : @Input/@Output</a></li>
+
+</ul>
+
+
+<!-- Dropdown Structure -->
+<ul id="dropdown2" class="dropdown-content">
+
+  <li><a routerLink="exos1_1">Exos 1.1 : Chrono - Bindings</a></li>
+  <li><a routerLink="exos1_2">Exos 1.2 : Panier - Bindings</a></li>
+  <li><a routerLink="exos_2">Exos 2 : Chrono - Custom Pipe</a></li>
+  <li><a routerLink="exos_3">Exos 3 : Panier - Directives Struct</a></li>
+
+</ul>
+

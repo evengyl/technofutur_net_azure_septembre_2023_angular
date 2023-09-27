@@ -19,6 +19,9 @@ import { Exos1_2Component } from './Exos/exos1_2/exos1_2.component';
 import { Exos3Component } from './Exos/exos3/exos3.component';
 import { Exos2Component } from './Exos/exos2/exos2.component';
 import { DirectivesNgComponent } from './Demo/directives-ng/directives-ng.component';
+import { DirectiveCustomComponent } from './Demo/directive-custom/directive-custom.component';
+import { ZoomitDirective } from './shared/directives/zoomit.directive';
+import { ZoomiteventDirective } from './shared/directives/zoomitevent.directive';
 
 
 
@@ -37,7 +40,10 @@ import { DirectivesNgComponent } from './Demo/directives-ng/directives-ng.compon
     ChildrenComponent,
     Exos3Component,
     Exos2Component,
-    DirectivesNgComponent
+    DirectivesNgComponent,
+    DirectiveCustomComponent,
+    ZoomitDirective,
+    ZoomiteventDirective
 
 
   ],

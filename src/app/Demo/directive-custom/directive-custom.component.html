@@ -32,7 +32,17 @@
     <div class="col s4">
         <div class="card blue-grey darken-1">
             <div class="card-content white-text hoverable">
-                <span class="card-title">Custom avec paramètre</span>
+                <span class="card-title">Custom avec psaramètre</span>
+
+                <label>Mamy, chosi ta couleur de text pour le zoom</label><input type="color" [(ngModel)]="color">
+                <label>Mamy, chosi ta taille de text pour le zoom</label><input type="number" [(ngModel)]="taille">
+
+                <ul class="collection black-text">
+                    <li *ngFor="let horseCouillon of listHorseMan" class="collection-item" [ZoomitParams]="[color, taille]">
+                        {{ horseCouillon.name }} sur son cheval {{ horseCouillon.colorHorse }}
+                    </li>
+                </ul>
+
             </div>
         </div>
     </div>

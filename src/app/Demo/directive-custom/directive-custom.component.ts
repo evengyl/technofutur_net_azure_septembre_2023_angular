@@ -25,4 +25,7 @@ export class DirectiveCustomComponent {
     { name : "Tanya", inOrdered : -1 },
     { name : "Michael", inOrdered : 1 }
   ]
+
+  color : string = "black"
+  taille : number = 15
 }

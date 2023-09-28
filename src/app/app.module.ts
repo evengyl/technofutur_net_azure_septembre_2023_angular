@@ -22,6 +22,9 @@ import { DirectivesNgComponent } from './Demo/directives-ng/directives-ng.compon
 import { DirectiveCustomComponent } from './Demo/directive-custom/directive-custom.component';
 import { ZoomitDirective } from './shared/directives/zoomit.directive';
 import { ZoomiteventDirective } from './shared/directives/zoomitevent.directive';
+import { ZoomitParamsDirective } from './shared/directives/zoomit-params.directive';
+import { TrimerDirective } from './shared/directives/trimer.directive';
+import { Exos4Component } from './Exos/exos4/exos4.component';
 
 
 
@@ -43,7 +46,10 @@ import { ZoomiteventDirective } from './shared/directives/zoomitevent.directive'
     DirectivesNgComponent,
     DirectiveCustomComponent,
     ZoomitDirective,
-    ZoomiteventDirective
+    ZoomiteventDirective,
+    ZoomitParamsDirective,
+    TrimerDirective,
+    Exos4Component
 
 
   ],

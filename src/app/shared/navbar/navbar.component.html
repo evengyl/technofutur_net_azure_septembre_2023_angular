@@ -5,8 +5,12 @@
   <div class="nav-wrapper">
 
     <a routerLink="" class="brand-logo">Accueil</a>
+    
 
     <ul class="right hide-on-med-and-down">
+      <li>
+        <button class="waves-effect waves-light btn" disabled>{{ isConnect() }}</button>
+      </li>
       <li>
         <a class="dropdown-trigger" href="#!" data-target="dropdown1">
           Démonstration de code angular
@@ -38,6 +42,8 @@
   <li><a routerLink="demos/directivecustom">6 : Directives Custom</a></li>
   <li><a routerLink="demos/publiccompo">7 : Partie Public (Guards)</a></li>
   <li><a routerLink="demos/privatecompo">7 : Partie Privée (Guards)</a></li>
+  <li><a routerLink="demos/typages">8 : Typages TS</a></li>
+  <li><a routerLink="demos/signals">9 : Signal()</a></li>
 
 </ul>
 

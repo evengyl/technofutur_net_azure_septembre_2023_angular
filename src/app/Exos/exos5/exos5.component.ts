@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, WritableSignal } from '@angular/core';
 import { CartService } from './cart.service';
 import { FakeAuthExos5Service } from './fake-auth-exos5.service';
 
@@ -13,7 +13,7 @@ export class Exos5Component {
   newArticleName : string = "pomme"
   newArticleQty : number = 4
 
-  isConnect : boolean = false
+  isConnect : WritableSignal<boolean>
 
 
   constructor(
@@ -51,11 +51,11 @@ export class Exos5Component {
 
   login()
   {
-    this.isConnect = this.fakeAuthServe.login()
+    this.fakeAuthServe.login()
   }
 
   logout()
   {
-    this.isConnect = this.fakeAuthServe.logout()
+    this.fakeAuthServe.logout()
   }
 }

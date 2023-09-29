@@ -17,6 +17,8 @@ import { Exos5Component } from './exos/exos5/exos5.component';
 import { PrivateCompoComponent } from './demos/guards/private-compo/private-compo.component';
 import { PublicCompoComponent } from './demos/guards/public-compo/public-compo.component';
 import { mamyGuard } from './demos/guards/mamy.guard';
+import { TypagesComponent } from './demos/typages/typages.component';
+import { SignalsComponent } from './demos/signals/signals.component';
 
 
 
@@ -31,7 +33,10 @@ const routes: Routes = [
     { path : "directivesng", component: DirectivesNgComponent},
     { path : "directivecustom", component: DirectiveCustomComponent},
     { path : "publiccompo", component : PublicCompoComponent},
-    { path : "privatecompo", canActivate : [mamyGuard], component : PrivateCompoComponent}
+    { path : "privatecompo", canActivate : [mamyGuard], component : PrivateCompoComponent},
+    { path : "typages", component : TypagesComponent},
+    { path : "signals", component : SignalsComponent},
+
   ]},
 
 

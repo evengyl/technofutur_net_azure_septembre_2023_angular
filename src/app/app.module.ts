@@ -31,6 +31,9 @@ import { DemosComponent } from './demos/demos.component';
 import { ExosComponent } from './exos/exos.component';
 import { PrivateCompoComponent } from './demos/guards/private-compo/private-compo.component';
 import { PublicCompoComponent } from './demos/guards/public-compo/public-compo.component';
+import { TypagesComponent } from './demos/typages/typages.component';
+import { FooterComponent } from './shared/footer/footer.component';
+import { SignalsComponent } from './demos/signals/signals.component';
 
 
 
@@ -62,7 +65,10 @@ import { PublicCompoComponent } from './demos/guards/public-compo/public-compo.c
     ExosComponent,
     PublicCompoComponent,
     PrivateCompoComponent,
-    PublicCompoComponent
+    PublicCompoComponent,
+    TypagesComponent,
+    FooterComponent,
+    SignalsComponent
 
 
   ],

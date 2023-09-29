@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Signal, WritableSignal, signal } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -6,25 +6,25 @@ import { Injectable } from '@angular/core';
 export class FakeAuthExos5Service {
 
 
-  isConnect : boolean = false
+  isConnect : WritableSignal<boolean> = signal(false)
 
   constructor() {
     let connectState = localStorage.getItem('isConnect')
     if(connectState){
-      this.isConnect = JSON.parse(connectState)
+      this.isConnect.set(JSON.parse(connectState))
     }
   }
 
   login()
   {
     localStorage.setItem('isConnect', 'true')
-    return this.isConnect = true
+    this.isConnect.set(true)
   }
 
   logout()
   {
     localStorage.setItem('isConnect', 'false')
-    return this.isConnect = false
+    this.isConnect.set(false)
   }
 
 }

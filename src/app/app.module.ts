@@ -25,6 +25,8 @@ import { ZoomiteventDirective } from './shared/directives/zoomitevent.directive'
 import { ZoomitParamsDirective } from './shared/directives/zoomit-params.directive';
 import { TrimerDirective } from './shared/directives/trimer.directive';
 import { Exos4Component } from './Exos/exos4/exos4.component';
+import { Exos5Component } from './Exos/exos5/exos5.component';
+import { MamyPipe } from './Exos/exos5/mamy.pipe';
 
 
 
@@ -49,7 +51,9 @@ import { Exos4Component } from './Exos/exos4/exos4.component';
     ZoomiteventDirective,
     ZoomitParamsDirective,
     TrimerDirective,
-    Exos4Component
+    Exos4Component,
+    Exos5Component,
+    MamyPipe
 
 
   ],

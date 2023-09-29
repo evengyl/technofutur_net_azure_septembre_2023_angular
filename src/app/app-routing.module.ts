@@ -11,6 +11,7 @@ import { Exos2Component } from './Exos/exos2/exos2.component';
 import { DirectivesNgComponent } from './Demo/directives-ng/directives-ng.component';
 import { DirectiveCustomComponent } from './Demo/directive-custom/directive-custom.component';
 import { Exos4Component } from './Exos/exos4/exos4.component';
+import { Exos5Component } from './Exos/exos5/exos5.component';
 
 
 
@@ -29,6 +30,7 @@ const routes: Routes = [
   { path : "exos_2", component : Exos2Component},
   { path : "exos_3", component: Exos3Component},
   { path : "exos_4", component: Exos4Component},
+  { path : "exos_5", component: Exos5Component},
 ];
 
 @NgModule({

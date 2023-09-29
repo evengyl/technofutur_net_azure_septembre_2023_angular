@@ -29,6 +29,8 @@ import { Exos5Component } from './exos/exos5/exos5.component';
 import { MamyPipe } from './exos/exos5/mamy.pipe';
 import { DemosComponent } from './demos/demos.component';
 import { ExosComponent } from './exos/exos.component';
+import { PrivateCompoComponent } from './demos/guards/private-compo/private-compo.component';
+import { PublicCompoComponent } from './demos/guards/public-compo/public-compo.component';
 
 
 
@@ -57,7 +59,10 @@ import { ExosComponent } from './exos/exos.component';
     Exos5Component,
     MamyPipe,
     DemosComponent,
-    ExosComponent
+    ExosComponent,
+    PublicCompoComponent,
+    PrivateCompoComponent,
+    PublicCompoComponent
 
 
   ],

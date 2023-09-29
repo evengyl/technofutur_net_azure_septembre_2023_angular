@@ -14,6 +14,9 @@ import { Exos2Component } from './exos/exos2/exos2.component';
 import { Exos3Component } from './exos/exos3/exos3.component';
 import { Exos4Component } from './exos/exos4/exos4.component';
 import { Exos5Component } from './exos/exos5/exos5.component';
+import { PrivateCompoComponent } from './demos/guards/private-compo/private-compo.component';
+import { PublicCompoComponent } from './demos/guards/public-compo/public-compo.component';
+import { mamyGuard } from './demos/guards/mamy.guard';
 
 
 
@@ -27,6 +30,8 @@ const routes: Routes = [
     { path : "inputoutput", component : InputoutputComponent},
     { path : "directivesng", component: DirectivesNgComponent},
     { path : "directivecustom", component: DirectiveCustomComponent},
+    { path : "publiccompo", component : PublicCompoComponent},
+    { path : "privatecompo", canActivate : [mamyGuard], component : PrivateCompoComponent}
   ]},
 
 

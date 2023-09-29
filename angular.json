@@ -57,7 +57,8 @@
             ],
             "scripts": [
               "node_modules/materialize-css/dist/js/materialize.min.js",
-              "src/assets/dropdown.js"
+              "src/assets/dropdown.js",
+              "src/assets/carousel.js"
             ]
           },
           "configurations": {
